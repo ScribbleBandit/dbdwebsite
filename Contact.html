@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>DBD</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet.css">
+  
+  <link href="font stylesheets.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Gothic, sans-serif;
+      line-height: 5.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #F57916; /* Burnt Orange */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #220E03; /* Black/brown */
+      color: #fff;
+  }
+  .bg-5 { 
+      background-color: #220E03; /* Black/brown */
+      color: #220E03;
+  }
+  
+  .container-fluid {
+      padding-top: 15px;
+      padding-bottom: 15px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 20px;
+      letter-spacing: 3px;
+  }
+  .navbar-nav  li a:hover {
+      color: #F57916 !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Disco Bay Detour</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="what's on tap.html">What's on Tap?</a></li>
+        <li><a href="Who's Playing.html">Who's Playing?</a></li>
+		<li><a href="Where.html">Where?</a></li>
+		<li><a href="Recording Studio.html">Recording Studio.</a></li>
+		<li><a href="Contact.html">Contact.</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-4 text-center">
+<form class="form-horizontal" role="form" method="post" action="index.html">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name:</label>
+		<div class="col-sm-4">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email:</label>
+		<div class="col-sm-4">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message:</label>
+		<div class="col-sm-8">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-sm-8 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-sm-8 col-sm-offset-2">
+			
+		</div>
+	</div>
+</form>					
+</div>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h2 class="margin"></h2>
+  <img src="jumbotron.png" class="img-responsive" style="display:inline" alt="logo" width="device-width">
+	<div class="container-fluid bg-6 text-center"></div>
+</div>
+
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+	<h3>OPEN 7 Days</h3>
+	<h3>Mon-Tue 2pm – 9pm</h3>
+	<h3>Wed-Sun 11am – 11pm</h3>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+	<div class="col-sm-4">
+	<h1><a href="http://www.hiyuaudio.org">Contact.</a></h1>
+		<h2>360-379-6898</h2>
+		<h3>282332 HWY 101, Port Townsend WA 98368</h3>
+	</div>
+  <h3>This Website Made Possible By <a href="http://www.hiyuaudio.org">Hiyu Communications.</a></h3> 
+</footer>
+
+</body>
+</html>
